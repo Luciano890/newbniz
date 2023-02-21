@@ -8,6 +8,7 @@ Export your container port.
 ```bash
 export PORT='XXXX'
 ```
+
 ### Run
 ```bash
 docker compose up -d
