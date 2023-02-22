@@ -31,15 +31,19 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    # My apps
+    'derivatives.apps.DerivativesConfig',
+    'functions.apps.FunctionsConfig',
+    'integrals.apps.IntegralsConfig',
+    # Third apps
+    'django_extensions',
+    # Django apps
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'derivatives',
-    'functions',
-    'integrals',
 ]
 
 MIDDLEWARE = [
